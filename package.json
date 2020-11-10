@@ -1,0 +1,32 @@
+{
+  "name": "@silentcastle/remote-did-resolver",
+  "version": "1.0.1",
+  "description": "Resolve DID Document from universal resolver endpoint",
+  "keywords": [
+    "did",
+    "resolver",
+    "uniresolver",
+    "decentralized identity"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist/"],
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/silentcastle/remote-did-resolver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/silentcastle/remote-did-resolver/issues"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.0.6",
+    "did-resolver": "^2.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
