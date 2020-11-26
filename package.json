@@ -1,6 +1,6 @@
 {
   "name": "@silentcastle/remote-did-resolver",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Resolve DID Document from universal resolver endpoint",
   "keywords": [
     "did",
@@ -10,14 +10,18 @@
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist/"],
+  "files": [
+    "dist/"
+  ],
   "scripts": {
-    "build": "tsc --project tsconfig.json"
+    "build": "tsc --project tsconfig.json",
+    "clean": "./node_modules/.bin/rimraf dist/",
+    "prepublishOnly": "pnpm run clean && pnpm run build"
   },
   "license": "Apache-2.0",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/silentcastle/remote-did-resolver.git"
+    "type": "git",
+    "url": "https://github.com/silentcastle/remote-did-resolver.git"
   },
   "bugs": {
     "url": "https://github.com/silentcastle/remote-did-resolver/issues"
@@ -27,6 +31,7 @@
   },
   "devDependencies": {
     "prettier": "^2.2.0",
-    "typescript": "^4.1.2"
+    "typescript": "^4.1.2",
+    "rimraf": "^3.0.2"
   }
 }
