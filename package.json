@@ -1,6 +1,6 @@
 {
   "name": "@silentcastle/remote-did-resolver",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Resolve DID Document from universal resolver endpoint",
   "keywords": [
     "did",
@@ -26,7 +26,7 @@
     "cross-fetch": "^3.0.6"
   },
   "devDependencies": {
-    "prettier": "^2.1.2",
-    "typescript": "^4.0.5"
+    "prettier": "^2.2.0",
+    "typescript": "^4.1.2"
   }
 }

@@ -1,8 +1,8 @@
 dependencies:
   cross-fetch: 3.0.6
 devDependencies:
-  prettier: 2.1.2
-  typescript: 4.0.5
+  prettier: 2.2.0
+  typescript: 4.1.2
 lockfileVersion: 5.2
 packages:
   /cross-fetch/3.0.6:
@@ -17,21 +17,21 @@ packages:
       node: 4.x || >=6.0.0
     resolution:
       integrity: sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
-  /prettier/2.1.2:
+  /prettier/2.2.0:
     dev: true
     engines:
       node: '>=10.13.0'
     hasBin: true
     resolution:
-      integrity: sha512-16c7K+x4qVlJg9rEbXl7HEGmQyZlG4R9AgP+oHKRMsMsuk8s+ATStlf1NpDqyBI1HpVyfjLOeMhH2LvuNvV5Vg==
-  /typescript/4.0.5:
+      integrity: sha512-yYerpkvseM4iKD/BXLYUkQV5aKt4tQPqaGW6EsZjzyu0r7sVZZNPJW4Y8MyKmicp6t42XUPcBVA+H6sB3gqndw==
+  /typescript/4.1.2:
     dev: true
     engines:
       node: '>=4.2.0'
     hasBin: true
     resolution:
-      integrity: sha512-ywmr/VrTVCmNTJ6iV2LwIrfG1P+lv6luD8sUJs+2eI9NLGigaN+nUQc13iHqisq7bra9lnmUSYqbJvegraBOPQ==
+      integrity: sha512-thGloWsGH3SOxv1SoY7QojKi0tc+8FnOmiarEGMbd/lar7QOEd3hvlx3Fp5y6FlDUGl9L+pd4n2e+oToGMmhRQ==
 specifiers:
   cross-fetch: ^3.0.6
-  prettier: ^2.1.2
-  typescript: ^4.0.5
+  prettier: ^2.2.0
+  typescript: ^4.1.2

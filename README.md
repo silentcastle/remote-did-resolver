@@ -15,10 +15,12 @@ Configure endpoint and resolve the document, like you would do with [DIF did-res
 ```typescript
 import { RemoteDidResolver } from "@silentcastle/remote-did-resolver";
 const resolver = new RemoteDidResolver("https://dev.uniresolver.io");
-const didResolution = await resolver.resolve(
+const didDocument = await resolver.resolve(
   "did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6"
 );
-const didDocument = didResolution.didDocument;
+// Alternatively, to get full resolution, instead of just DID document.
+const didResolution = await resolver.resolution("did:key:z6Mkfriq1MqLBoPWecGoDLjguo1sB9brj6wT3qZ5BxkKpuP6")
+didDocument == didResolution.didDocument //=> true
 ```
 
 ## License
