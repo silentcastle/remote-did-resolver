@@ -3,3 +3,4 @@ export * from "./did-resolution";
 export * from "./no-resolution.error";
 export * from "./remote-did-resolver";
 export * from "./resolver.interface";
+export * from "./parse";
