@@ -1,4 +1,5 @@
 dependencies:
+  '@silentcastle/did-util': 1.1.0
   cross-fetch: 3.0.6
 devDependencies:
   prettier: 2.2.0
@@ -6,6 +7,15 @@ devDependencies:
   typescript: 4.1.2
 lockfileVersion: 5.2
 packages:
+  /@silentcastle/did-util/1.1.0:
+    dependencies:
+      tslib: 2.0.3
+    dev: false
+    engines:
+      node: '>=14'
+      pnpm: '>=5.10.4'
+    resolution:
+      integrity: sha512-fLroBytHJYN9H1d1z0XwEUwgqu3Wz8vMQ3/WCidT1GcEqjcKfHicSFBHucSoaBq0XMTmvhrFuhUrS0h070wNvg==
   /balanced-match/1.0.0:
     dev: true
     resolution:
@@ -91,6 +101,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
+  /tslib/2.0.3:
+    dev: false
+    resolution:
+      integrity: sha512-uZtkfKblCEQtZKBF6EBXVZeQNl82yqtDQdv+eck8u7tdPxjLu2/lp5/uPW+um2tpuxINHWy3GhiccY7QgEaVHQ==
   /typescript/4.1.2:
     dev: true
     engines:
@@ -103,6 +117,7 @@ packages:
     resolution:
       integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
 specifiers:
+  '@silentcastle/did-util': ^1.1.0
   cross-fetch: ^3.0.6
   prettier: ^2.2.0
   rimraf: ^3.0.2

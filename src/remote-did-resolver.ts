@@ -1,8 +1,10 @@
-import { NoResolutionError } from "./no-resolution.error";
 import fetch from "cross-fetch";
-import { DIDResolution } from "./did-resolution";
-import { DIDDocument } from "./did-document";
-import { IResolver } from "./resolver.interface";
+import {
+  DIDDocument,
+  DIDResolution,
+  NoResolutionError,
+  IResolver,
+} from "@silentcastle/did-util";
 
 /**
  * Resolve by asking Uniresolver for DID Document.
