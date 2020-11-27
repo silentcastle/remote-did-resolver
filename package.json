@@ -1,6 +1,6 @@
 {
   "name": "@silentcastle/remote-did-resolver",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Resolve DID Document from universal resolver endpoint",
   "keywords": [
     "did",

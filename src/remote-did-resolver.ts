@@ -2,12 +2,13 @@ import { NoResolutionError } from "./no-resolution.error";
 import fetch from "cross-fetch";
 import { DIDResolution } from "./did-resolution";
 import { DIDDocument } from "./did-document";
+import { IResolver } from "./resolver.interface";
 
 /**
  * Resolve by asking Uniresolver for DID Document.
  * Example endpoint: `https://didyoufindme.xyz/` or `https://dev.uniresolver.io`.
  */
-export class RemoteDidResolver {
+export class RemoteDidResolver implements IResolver {
   readonly endpoint: string;
 
   constructor(endpoint: string) {
